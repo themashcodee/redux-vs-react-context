@@ -1,6 +1,7 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-import { Context, Redux } from "components"
+import { Context } from "components/context"
+import { Redux } from "components/redux"
 
 const Home: NextPage = () => {
 	return (
