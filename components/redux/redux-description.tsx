@@ -25,11 +25,12 @@ export const Description = () => {
 				</li>
 				<li>
 					{
-						"Works Flow : UI(Action Dispatched) -> Reducers (Calculating New State) -> State(Set New State) -> UI(Update UI) -> Cycle Repeat"
+						"Work Flow : UI(Action Dispatched) -> Reducers (Calculating New State) -> State(Set New State) -> UI(Update UI) -> Cycle Repeat"
 					}
 				</li>
 				<li>
-					States (store) is seperate and not inside the main(App) component
+					States (store) is defined seperately and not inside the main(App)
+					component
 				</li>
 				<li>Lots of boilerplate</li>
 				<li>PubSub Based</li>

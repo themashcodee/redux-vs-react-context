@@ -21,7 +21,7 @@ export const Description = () => {
 				<li>Good for Small Project</li>
 				<li>
 					Re renders the entire application because of the state is defined in
-					the main component. This can be fixed with the help of React.memo
+					the main(App) component. This can be fixed with the help of React.memo
 				</li>
 				<li>Good for read not for write</li>
 				<li>Super Easy to setup</li>
