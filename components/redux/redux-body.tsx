@@ -21,7 +21,7 @@ export const Body = () => {
 			variants={RenderAnimation}
 			className="flex flex-col gap-4 h-full sm:p-4 p-2"
 		>
-			<span className="text-2xl">Count - {state.count}</span>
+			<span className="text-2xl">Count: {state.count}</span>
 
 			<div className="flex gap-2">
 				<button
