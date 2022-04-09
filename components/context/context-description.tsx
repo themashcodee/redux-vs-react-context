@@ -18,13 +18,13 @@ export const Description = () => {
 			className="grow"
 		>
 			<ol className="list-disc pl-4">
-				<li>Good for Small Project</li>
+				<li>Good for small projects</li>
 				<li>
-					Re renders the entire application because of the state is defined in
+					Re-renders the entire application because of the state is defined in
 					the main(App) component. This can be fixed with the help of React.memo
 				</li>
-				<li>Good for read not for write</li>
-				<li>Super Easy to setup</li>
+				<li>Good for read not for write.</li>
+				<li>Super easy to setup.</li>
 			</ol>
 		</motion.div>
 	)

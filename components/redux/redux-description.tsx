@@ -18,10 +18,10 @@ export const Description = () => {
 			className="grow"
 		>
 			<ol className="list-disc pl-4">
-				<li>Perfect for Big Project</li>
+				<li>Perfect for big projects</li>
 				<li>
-					Re renders only the subscribed component so its children. Children re
-					rendering can be fixed with the help of React.memo
+					Re-renders only the subscribed component so its children. Children 
+					re-rendering can be fixed with the help of React.memo
 				</li>
 				<li>
 					{
