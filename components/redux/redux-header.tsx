@@ -15,7 +15,7 @@ export const Header = () => {
       initial="initial"
       animate={controls}
       variants={RenderAnimation}
-      className="w-full h-12 bg-gray-100 items-center flex px-3"
+      className="w-full h-16 p-4  lg:h-12 bg-gray-100 items-center flex lg:px-3"
     >
       <span className="sm:text-2xl text-xl font-semibold">
         Redux (Redux toolkit)
