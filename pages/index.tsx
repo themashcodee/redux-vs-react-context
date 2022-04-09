@@ -1,27 +1,29 @@
-import type { NextPage } from "next"
-import Head from "next/head"
-import { Context } from "components/context"
-import { Redux } from "components/redux"
+import { Context } from "components/context";
+import { Redux } from "components/redux";
+import type { NextPage } from "next";
+import Head from "next/head";
 
 const Home: NextPage = () => {
-	return (
-		<>
-			<Head>
-				<title>React Context vs Redux</title>
-				<meta name="description" content="React Context vs Redux" />
-				<link rel="icon" href="/favicon.png" />
-			</Head>
+  return (
+    <>
+      <Head>
+        <title>React Context vs Redux</title>
+        <meta name="description" content="React Context vs Redux" />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
 
-			<main className="p-12 w-full flex flex-col h-screen gap-8">
-				<h1 className="text-4xl font-semibold">React Context vs Redux</h1>
+      <main className="p-12 w-full flex flex-col h-screen gap-8">
+        <h1 className="sm:text-4xl text-xl font-semibold border-b-[2px] border-slate-900">
+          React Context vs Redux
+        </h1>
 
-				<div className="w-full grid grid-cols-2 gap-12 h-full">
-					<Context />
-					<Redux />
-				</div>
-			</main>
-		</>
-	)
-}
+        <div className="w-full flex flex-col sm:flex-row gap-12 h-full">
+          <Context />
+          <Redux />
+        </div>
+      </main>
+    </>
+  );
+};
 
-export default Home
+export default Home;
