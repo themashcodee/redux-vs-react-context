@@ -1,6 +1,6 @@
-import React, { useEffect } from "react"
-import { motion, useAnimation } from "framer-motion"
 import { RenderAnimation } from "animation"
+import { motion, useAnimation } from "framer-motion"
+import React, { useEffect } from "react"
 
 export const Header = () => {
 	const controls = useAnimation()
@@ -15,7 +15,7 @@ export const Header = () => {
 			initial="initial"
 			animate={controls}
 			variants={RenderAnimation}
-			className="w-full h-12 bg-gray-100 items-center flex px-3"
+			className="w-full bg-gray-100 items-center flex p-2"
 		>
 			<span className="text-2xl font-semibold">Redux (Redux toolkit)</span>
 		</motion.header>

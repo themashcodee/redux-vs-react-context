@@ -15,7 +15,7 @@ export const Header = () => {
 			initial="initial"
 			animate={controls}
 			variants={RenderAnimation}
-			className="w-full h-12 bg-gray-100 items-center flex px-3"
+			className="w-full bg-gray-100 items-center flex p-2"
 		>
 			<span className="text-2xl font-semibold">React Context API</span>
 		</motion.header>
